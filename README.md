@@ -1,20 +1,29 @@
-# UIDAI Aadhaar Data Hackathon 2026
+# UIDAI Data Hackathon 2026: Societal Trends in Aadhaar Enrolment and Updates
 
-This repository supports the UIDAI Hackathon 2026 submission by Team Data Insight Champions.
+Team: Data Insight Champions
+Team ID: UIDAI_2847
 
-## Data
-Only official, anonymized, aggregated datasets provided by UIDAI were used.
-No individual-level Aadhaar data was accessed or stored.
+Overview
+This repository contains the analysis code, notebooks, and sample data used for the UIDAI Data Hackathon 2026 submission. All analysis is performed on anonymized, aggregated UIDAI datasets or synthetic sample data. No raw Aadhaar or individual-level data is included.
 
-## Contents
-- Reproducible analysis notebooks
-- Clustering and predictive frameworks
-- Policy-oriented visual mockups
-- Documentation of assumptions and proxies
+Quick start
+- Clone the repository:
+  - git clone https://github.com/Xaan1506/uidai-aadhaar-analytics-hackathon-2026.git
+  - cd uidai-aadhaar-analytics-hackathon-2026
+- Create a python environment (recommended):
+  - python -m venv .venv
+  - source .venv/bin/activate  (Windows: .venv\Scripts\activate)
+- Install dependencies:
+  - pip install -r requirements.txt
+- Run notebooks in order from notebooks/ (01 -> 07). Use data/sample/ for tests.
 
-## Intended Use
-All outputs are designed for strategic planning and system improvement.
-Not intended for operational or individual-level decision-making.
+Compliance
+See COMPLIANCE.md for data provenance, privacy statements and usage restrictions.
 
-## Compliance
-This work complies with UIDAI Hackathon Terms & Conditions and India’s DPDP Act 2023.
+Key findings (summary)
+- Sample-driven analysis pipeline demonstrating reproducible metrics and models.
+- Clear separation of code and data; no raw UIDAI datasets in repo.
+- Derived metrics and methodology documented in docs/ and COMPLIANCE.md.
+
+Contact
+Team Data Insight Champions — team@datainsightchampions.com

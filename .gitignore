@@ -1,0 +1,35 @@
+# Data files (CRITICAL - prevent raw data upload)
+*.csv
+*.xlsx
+*.xls
+*.zip
+data/raw/
+data/processed/
+!data/sample/
+!data/public/
+
+# API keys and secrets
+*.env
+.env
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pkl.gz
+models/large/
